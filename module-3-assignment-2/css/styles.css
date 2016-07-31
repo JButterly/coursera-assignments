@@ -1,7 +1,7 @@
 body {
+  font-size: 14px;
   background-color: #F5F5F5;
   font-family: 'Ubuntu', sans-serif;
-  /*height: 1000px;*/
 }
 
 /* navbar */
@@ -31,7 +31,6 @@ body {
 }
 #content h1 {
   font-weight: bold;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 div.description {
@@ -43,6 +42,8 @@ div > h3 {
 }
 .back-to-top {
   position: absolute;
+}
+.back-to-top div {
   text-decoration: none;
   color: #BA55D3;
   text-shadow: 1px 1px 1px #222;
@@ -51,7 +52,7 @@ div > h3 {
 /* mobile with menu dropdown (xs)*/
 @media (max-width: 425px) {
   .navbar-brand {
-    font-size: 16px;
+    /*font-size: 16px;*/
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -60,32 +61,30 @@ div > h3 {
     margin-bottom: 13px;
   }
   #collapsable-nav a {
-    font-size: 12px;
+    font-size: 14px;
   }
   #content {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  #content h1 {
-    font-size: 14px;
-  }
+  /*#content h1 {
+    font-size: 16px;
+  }*/
   div.description {
-    font-size: 10px;
+    font-size: 12px;
     padding: 15px;
     margin: 0;
   }
   div > h3 {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 10px;
   }
   .back-to-top {
+    font-size: 10px;
     margin: 5px;
     bottom: 10px;
     right: 10px;
-  }
-  .back-to-top a {
-    font-size: 10px;
   }
 }
 
